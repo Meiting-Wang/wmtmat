@@ -1,0 +1,9 @@
+v 1.0.0
+d 'WMTMAT': wmtmat
+d 
+d output a matrix to Word, LaTeX, Stata interface.
+d 
+d Distribution-Date:   20200427
+d License: MIT
+d 
+F wmtmat.ado
