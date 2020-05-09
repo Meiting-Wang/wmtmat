@@ -111,13 +111,17 @@ else {
 } //默认值
 
 *构建esttab中alignment()和page()内部的语句(LaTeX输出专属)
+if "`alignment'" == "" {
+	local alignment "math"
+}
+
 if "`page'" != "" {
 	local page ",`page'"
 }
+
 if "`alignment'" == "math" {
 	local page "array`page'"
 	local alignment "*{`=colsof(`namelist')'}{>{$}c<{$}}"
-	
 }
 else {
 	local page "array,dcolumn`page'"
