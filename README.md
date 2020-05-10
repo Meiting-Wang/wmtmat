@@ -91,7 +91,7 @@ wmtmat B using Myfile.tex, replace a(dot) //将矩阵B输出至LaTeX，并设置
 ```
 
 > 以上所有实例都可以在`help wmtmat`中直接运行。
-> ![](https://imgkr.cn-bj.ufileos.com/4e7202f0-f5f9-4609-a30c-5ebbc156a006.png)
+> ![image](https://user-images.githubusercontent.com/42256486/81492223-d9002000-92c8-11ea-9725-5eee314e3647.png)
 
 ## 五、输出效果展示
 
@@ -121,7 +121,7 @@ r6           341.259  1677.316  1238.299  1228.905   806.692
 wmtmat B using Myfile.rtf, replace
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/4a736b04-9058-4f15-8ab2-12019728d8f6.png)
+![image](https://user-images.githubusercontent.com/42256486/81492225-ddc4d400-92c8-11ea-85e0-c5ad58c0951a.png)
 
 - **LaTeX**
 
@@ -129,12 +129,12 @@ wmtmat B using Myfile.rtf, replace
 wmtmat B using Myfile.tex, replace
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/b2084ce4-0719-422e-bb81-5739ad8c7a10.png)
+![image](https://user-images.githubusercontent.com/42256486/81492226-e2898800-92c8-11ea-8727-091deee57db5.png)
 
 ```stata
 wmtmat B using Myfile.tex, replace a(dot)
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/ef432a6f-18f4-439f-9477-9656e0498022.png)
+![image](https://user-images.githubusercontent.com/42256486/81492229-e61d0f00-92c8-11ea-9470-db9bd2ea78cd.png)
 
 > 在将结果输出至 Word 或 LaTeX 时，Stata 界面上也会呈现对应的结果，以方便查看。
