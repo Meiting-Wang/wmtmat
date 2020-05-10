@@ -129,7 +129,7 @@ wmtmat B using Myfile.rtf, replace
 wmtmat B using Myfile.tex, replace
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/cfc7f57a-3d1b-477c-8243-8f6c9f92d064.png)
+![](https://imgkr.cn-bj.ufileos.com/b2084ce4-0719-422e-bb81-5739ad8c7a10.png)
 
 ```stata
 wmtmat B using Myfile.tex, replace a(dot)
