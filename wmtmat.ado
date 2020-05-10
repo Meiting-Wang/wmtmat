@@ -1,7 +1,7 @@
-* Feather: output matrix to Stata interface, Word and LaTeX
+* Description: output matrix to Stata interface, Word as well as LaTeX
 * Author: Meiting Wang, Master, School of Economics, South-Central University for Nationalities
-* Email: 2017110097@mail.scuec.edu.cn
-* Created on Oct 26th, 2019
+* Email: wangmeiting92@gmail.com
+* Created on May 10, 2020
 
 
 program define wmtmat
@@ -113,7 +113,7 @@ else {
 *构建esttab中alignment()和page()内部的语句(LaTeX输出专属)
 if "`alignment'" == "" {
 	local alignment "math"
-}
+} //设置alignment的默认值
 
 if "`page'" != "" {
 	local page ",`page'"
