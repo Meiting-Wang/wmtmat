@@ -1,10 +1,9 @@
-v v1.0.0
-d 'WMTMAT': wmtmat
-d 
-d Output matrix to Stata interface, Word as well as LaTeX.
-d 
-d Distribution-Date:   20200510
-d License: MIT
-d 
-F wmtmat.ado
-F wmtmat.sthlp
+v 1.0.0
+d wmtmat. Output matrix to Stata interface, Word as well as LaTeX
+d Meiting Wang
+d Institute for Economic and Social Research, Jinan University
+d Guangzhou, China
+d wangmeiting92@gmail.com
+
+f wmtmat.ado
+f wmtmat.sthlp
